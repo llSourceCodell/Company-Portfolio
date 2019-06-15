@@ -1,32 +1,71 @@
-/*Start global*/
-/*End global*/
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #10100a;
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: #ffd11a;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #10100a !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #10100a !important;
+    background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #10100a !important;
+}
+.container-fluid {
+    padding: 60px 50px;
+}
+.jumbotron {
+    background-color: #ffd11a;
+    color:#10100a;
+    padding-top: 115px;
+    font-family: Montserrat, sans-serif;
+}
+.bg-grey {
+    background-color: #f6f6f6;
+}
+.logo {
+    color: #ffd11a;
+    font-size: 200px;
+}
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}  
+.slideanim {visibility:hidden;}
 
-/*Start reusable*/
-/*End reusable*/
 
-/*Start header*/
-/*End header*/
 
-/*Start about*/
-/*End about*/
+  
 
-/*Start services*/
-/*End services*/
 
-/*Start portfolio*/
-/*End services*/
 
-/*Start timeline*/
-/*End timeline*/
 
-/*Start contact*/
-/*End contact*/
 
-/*Start footer*/
-/*End footer*/
 
-/*Start animations*/
-/*End animations*/
 
-/*Start media queries*/
-/*End media queries*/
+
+

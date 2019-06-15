@@ -1,2 +1,2 @@
 # Company-Portfolio
-A website for company portfolio.
+**[View Live Preview](https://llsourcecodell.github.io/Company-Portfolio/index.html)**

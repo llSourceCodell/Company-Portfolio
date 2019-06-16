@@ -1,0 +1,78 @@
+/* Mixins ,Variables,Functions */
+/* General styles */
+body {
+  font-weight: 400;
+  font-size: 15px;
+  color: #10100a;
+  font-family: Lato, sans-serif;
+  line-height: 1.8; }
+
+h2, h4 {
+  margin-bottom: 30px; }
+
+h2 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #303030;
+  text-transform: uppercase; }
+
+h4 {
+  font-weight: 400;
+  font-size: 19px;
+  color: #303030;
+  line-height: 1.375em; }
+
+.slideanim {
+  visibility: hidden; }
+
+/* Homepage */
+.homepage-section .container {
+  padding: 50px 15px; }
+
+.jumbotron {
+  background-color: #ffd11a;
+  padding-top: 115px;
+  font-family: Montserrat, sans-serif; }
+
+.bg-grey {
+  background-color: #f6f6f6; }
+
+.logo {
+  color: #ffd11a;
+  font-size: 200px; }
+
+/* Header Section */
+.navbar-default.navbar {
+  font-weight: 400;
+  font-size: 12px;
+  color: #10100a;
+  z-index: 9999;
+  margin-bottom: 0;
+  background-color: #ffd11a;
+  border: 0;
+  line-height: 1.42857143;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif; }
+  .navbar-default.navbar li a {
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -ms-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+    color: #10100a; }
+    .navbar-default.navbar li a:hover {
+      background: #fff; }
+  .navbar-default.navbar li.active a {
+    color: #10100a;
+    background: #fff; }
+    .navbar-default.navbar li.active a:hover {
+      background-color: lightgrey; }
+  .navbar-default.navbar .navbar-brand {
+    color: #10100a; }
+  .navbar-default.navbar .navbar-toggle {
+    border: 0;
+    color: #10100a; }
+
+/* Footer Section */
+
+/*# sourceMappingURL=style.css.map */

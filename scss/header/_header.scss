@@ -1,0 +1,34 @@
+.navbar-default.navbar {
+    @include fontCreator(400, 12px, #10100a);
+    z-index: 9999;
+    margin-bottom: 0;
+    background-color: #ffd11a;
+    border: 0; // font-size: 12px !important;
+    line-height: 1.42857143;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+    li {
+        a { @include transition(all 0.1s ease-in);
+            color: #10100a ;
+            &:hover {
+                background: #fff;
+            }
+        }
+        &.active a{
+            color: #10100a ;
+            background: #fff;
+            &:hover {
+                background-color: lightgrey;
+            }
+        }
+
+    }
+    .navbar-brand {
+        color: #10100a;
+    }
+    .navbar-toggle {
+        border: 0;
+        color: #10100a;
+    }
+}

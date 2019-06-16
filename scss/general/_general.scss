@@ -1,0 +1,39 @@
+body {
+    @include fontCreator(400, 15px, #10100a);
+    font-family: Lato, sans-serif;
+    line-height: 1.8;
+}
+h2, h4 {
+    margin-bottom: 30px;
+}
+h2 {
+    @include fontCreator(600, 24px, #303030);
+    text-transform: uppercase;
+}
+h4 {
+    @include fontCreator(400, 19px, #303030);
+    line-height: 1.375em;
+}
+
+.slideanim {
+    visibility: hidden;
+}
+/* Homepage */
+.homepage-section {
+    .container {
+        padding: 50px 15px;
+    }
+}
+.jumbotron {
+    background-color: #ffd11a;
+    padding-top: 115px;
+    font-family: Montserrat, sans-serif;
+}
+.bg-grey {
+    background-color: #f6f6f6;
+}
+.logo {
+    color: #ffd11a;
+    font-size: 200px;
+}
+
